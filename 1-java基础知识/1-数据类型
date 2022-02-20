@@ -4,7 +4,7 @@
 							       整数      byte short int(默认) long
 							       浮点数    float  double(默认)
 							       字符      char
-						非数值型    布尔      Boolean
+						非数值型    布尔      boolean
 						
 			引用数据类型 
 						           类         class

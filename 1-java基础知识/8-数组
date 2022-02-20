@@ -11,6 +11,7 @@ int[] arr = {1,2,3}
 	
 --------------------------------------------------------------数组长度可变
 import java.util.ArrayList;
+
 ArrayList<String> array = new ArrayList<>()
 
 array.add(item) 将元素追加到数组结尾
