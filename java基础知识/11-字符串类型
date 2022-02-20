@@ -1,0 +1,25 @@
+String 的特点
+	1 字符串不可变 ,它们的值在创建后不可改变
+	
+	3字符串效果上想当于数组的char,但是底层原理是 byte[]
+	
+	
+	String s = "abc"
+	
+	String 对象的特点
+	以 "abc" 给出的字符串,只要字符相同 无论程序中出现几次,jvm都只会建立一个String对象,并在字符串池维护
+	String s = "abc"
+	String ss = "abc"
+	s 和 ss 本质是一个对象
+	
+	
+	== 比较内存地址是否相同
+	字符串的比较 equals()  比较字符串的内容是否相同
+	--------------------------------------------------------------------------------
+	StringBuilder sb = new StringBuilder() 创建一个空白可变的字符串对象
+	sb.append("123")  添加
+	sb.reverse()
+	
+	
+	StringBuilder 转化为 String
+	sb.toString()
