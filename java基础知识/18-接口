@@ -1,6 +1,6 @@
 //定义一个接口
 public interface demo{
-	public abstract void eat()
+	 void eat()
 }
 
 
