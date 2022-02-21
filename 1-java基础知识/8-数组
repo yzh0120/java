@@ -14,11 +14,11 @@ import java.util.ArrayList;
 
 ArrayList<String> array = new ArrayList<>()
 
-array.add(item) 将元素追加到数组结尾
-array.add(index , item) 在指定位置添加元素 后面的元素index+1\
-.remove(item)       删除指定的元素 返回删除是否成功
-remove(index)   删除index 处的元素,返回被删除的元素
+Booblean add(item) 将元素追加到数组结尾
+Boobleanadd(index , item) 在指定位置添加元素 后面的元素index+1\
+Booblean remove(item)       删除指定的元素 返回删除是否成功
+E remove(index)   删除index 处的元素,返回被删除的元素
 
-set(index,item)  修改指定索引处的元素 返回被修改的元素
-get(index)          返回index的元素
-size()  返回集合的个数
+E set(index,item)  修改指定索引处的元素 返回被修改的元素
+E get(index)          返回index的元素
+int size()  返回集合的个数
