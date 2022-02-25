@@ -15,7 +15,7 @@ import java.util.ArrayList;
 ArrayList<String> array = new ArrayList<>()
 
 Booblean add(item) 将元素追加到数组结尾
-Boobleanadd(index , item) 在指定位置添加元素 后面的元素index+1\
+Booblean add(index , item) 在指定位置添加元素 后面的元素index+1
 Booblean remove(item)       删除指定的元素 返回删除是否成功
 E remove(index)   删除index 处的元素,返回被删除的元素
 

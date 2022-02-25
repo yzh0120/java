@@ -1,7 +1,7 @@
 在类a定义一个类b  类b就是内部类
  
  public class Out{
-	 public calss Inn}{
+	 public calss Inn{
 		 
 	 }
  }
@@ -25,13 +25,15 @@
 new 类名或者接口名{类名或者接口名不是外部类名 而是其他的类名或者接口
 	重写方法;
 }
-如果使用方法;
+使用方法
+1在外部类内部
 1 new Inter(){
 	public void show(){
 		
 	} 
 }.show()//某个方法
-2多态形式 Inter in = new Inter(){
+
+2 Inter in = new Inter(){
 	public void show(){
 		
 	} 
