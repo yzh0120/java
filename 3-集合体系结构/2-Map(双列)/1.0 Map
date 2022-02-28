@@ -11,8 +11,11 @@ Map<String,String> map = new HashMap<String,String>();
 --------------------------------------------------------------
 方法
 v put(K key ,V value)        添加元素
+
 V remove(Object key)          根据键删除键值对元素
+
 void clear()                   移除所有键值对元素
+
 boolean containsKey(Object key) 判断集合是否存在指定key
 boolean containsValue(Object key) 判断集合是否存在指定Value
 boolean isEmpty()                 判断集合是否为空

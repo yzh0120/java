@@ -5,6 +5,9 @@ LinkedList 底层数据结构是链表   查询慢   增删快
 ----------------------------------------------------------------------
 LinkedList<int>  h =  new LinkedList<int>()
 
+//Booblean add(item) 将元素追加到数组结尾
+//Booblean remove(item)       删除指定的元素 返回删除是否成功
+//int size()  返回集合的个数
 LinkedList 特有功能:
 void addFirst (E e)      在该链表开头插入指定的元素
 void addLast(E e)        将指定的元素追加到此链表的末尾
@@ -18,9 +21,11 @@ E    removeLast()       删除最后一个元素
 ArrayList
 //Booblean add(item) 将元素追加到数组结尾
 Booblean add(index , item) 在指定位置添加元素 后面的元素index+1
+
 //Booblean remove(item)       删除指定的元素 返回删除是否成功
 E remove(index)   删除index 处的元素,返回被删除的元素
 
 E set(index,item)  修改指定索引处的元素 返回被修改的元素
+
 E get(index)          返回index的元素
 //int size()  返回集合的个数
