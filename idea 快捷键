@@ -7,3 +7,5 @@ ctrl + b  进首次定义的地方
 alt + insert 生成getset方法
 
 ctrl + alt + v 生成左边内容 
+
+一键格式化代碼:Ctrl+Alt+L
