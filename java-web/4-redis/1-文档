@@ -11,7 +11,7 @@ windows下安装Redis并部署成服务
   安装命令: redis-server.exe --service-install redis.windows.conf
   
 4 启动服务
-  redis-server --service-start
+  redis-server --service-start   (redis-cli.exe -h 127.0.0.1 -p 6379 )
   
   
 5 登录
