@@ -2,4 +2,4 @@ String toString(int[] a)
 
 void sort(int[] a)
 
-Array.asList('',1L,xx)  把参数转化为集合
+Array.asList('',1L,xx)  把参数转化为List集合

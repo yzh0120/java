@@ -1,0 +1,9 @@
+userMapper.selectById(id)  根据id查询
+
+userMapper.selectBatchIds(list<id>)   根据ids查询多条数据
+
+userMapper.selectByMap(Map键值对) 条件查询
+
+
+-------------------------------------------------
+userMapper.selectList(条件构造器)  根据条件构造器查询
