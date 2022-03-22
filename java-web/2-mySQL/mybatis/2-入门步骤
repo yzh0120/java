@@ -15,7 +15,7 @@
 	        SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
 	
 	//        2 获取 SqlSession对象,用它来执行SQL
-	        SqlSession sqlSession = sqlSessionFactory.openSession();
+	        SqlSession sqlSession = sqlSessionFactory.openSession(true);
 	
 	        // 3 执行SQl语句
 	        List<User> users = sqlSession.selectList("user.selectAll");

@@ -16,3 +16,23 @@
 			</select>
 ------------------------------------------------------------------------------
 单条件查询    多个条件中选择一个(下拉框 - 多选一)
+
+	select * from user 
+	         <where> 
+				<choose>  
+						<when test="status != null">
+								 staus = #{status} 
+						</when>
+						
+						<when test="companyName != null and companyName != '' ">
+								 company_name like #{companyName}
+						</when>
+						
+						<when test="xxxName != null and xxxName!= '' ">
+								 xxx_name like #{xxxName}
+						</when>
+						<otherwise>
+						1=1
+						</otherwise>
+					</choose> 
+				</where> 
