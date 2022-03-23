@@ -5,3 +5,7 @@ userMapper.deleteByMap(Map键值对) 条件删除
 userMapper.deleteBatchIds(list<id>)
 
 -------------------------------------------------
+
+queryWrapper
+.isNull("email")
+userMapper.delete(queryWrapper)   
