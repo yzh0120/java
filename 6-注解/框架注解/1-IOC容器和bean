@@ -3,6 +3,9 @@ Spring中Bean及@Bean的理解
 
 @Configuration和@Bean的用法和理解
 https://www.cnblogs.com/soundcode/p/6477974.html
+
+Spring的注解 @Bean用法
+https://blog.csdn.net/qq_27706119/article/details/111768599
 -------------------------------------------------------------------------
 
 Spring IOC容器基本原理
