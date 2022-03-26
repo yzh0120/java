@@ -9,6 +9,8 @@ E remove(int index)                删除index处的元素
 E set(int index, E e)              设置指定index的元素
 E get(int index)                   返回指定index的元素
 ----------------------------------------------------------------
+
+
 并发修改导致异常
 while( whileit.hasNext() ){是否存在下一个元素
 	在这里指定 .add 方法会导致并发修改导致异常
