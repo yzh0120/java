@@ -9,3 +9,17 @@ userMapper.selectPage(page,条件构造器,如果查询所有数据则是null)
 ---------------------------------------------------------
 自定义分页
 方法的第一个参数必须是page对象 @Param("page")
+
+
+
+
+
+
+
+
+
+page.getRecords()   返回匹配的内容
+
+  System.out.println(page.getPages());      总页面数
+  
+        System.out.println(page.getTotal());  总条数

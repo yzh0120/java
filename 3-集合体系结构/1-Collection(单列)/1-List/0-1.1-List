@@ -39,3 +39,14 @@ void add(E e)          将指定的元素插入列表
 List 集合常用子类
 ArrayList  底层数据机构是数组 , 查询快  增删慢
 LinkedList 底层数据结构是链表   查询慢   增删快
+--------------------------------------------------------------------
+方法  roles 是list
+ String roleCodes = roles.stream().map(r -> "ROLE_" + r.getCode()).collect(Collectors.joining(","));
+ Java 8 stream的详细用法
+ https://blog.csdn.net/y_k_y/article/details/84633001
+ -------------------------
+ 1.字符串转换为List
+ List<String> list = Arrays.asList(str.split(","));
+ 
+ 2.List转换为字符串
+ String str = StringUtils.join(list, ",");
