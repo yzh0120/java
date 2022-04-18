@@ -14,3 +14,4 @@
 <14>  indexOf(ch，fromIndex) //返回字符串中fromIndex之后出现的第一个ch下标，如果没有返回-1
 <15>  getBytes()将字符串变成一个byte数组
 <16>  replace(a, "HELLO WORD") 将a替换HELLO WORD
+<17>  split(",");  切割
