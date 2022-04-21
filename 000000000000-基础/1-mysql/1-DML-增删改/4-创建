@@ -1,5 +1,5 @@
 
-CREATE TABLE stu (
+create table stu (
 	id INT,--编号
 	NAME VARCHAR (20),-- 姓名
 	age INT,-- 年龄
@@ -10,7 +10,7 @@ CREATE TABLE stu (
 	hire_date date-- 入学时间
 );
 
-INSERT INTO stu(id,NAME,age,sex,address,math,english,hire_date)
+insert into stu(id,NAME,age,sex,address,math,english,hire_date)
 VALUES
 (1,'码云',55,'男','杭州',66,78,'1995-09-01'),
 (2,'马化腾',55,'女','深圳',66,48,'1895-02-01'),
@@ -22,7 +22,7 @@ VALUES
 (8,'德玛西亚',55,'女','南京',96,78,'1195-09-09');
 -----------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------
-CREATE TABLE song (
+create table song (
 	NAME VARCHAR (32),
 	-- 歌曲名
 	serial_number TINYINT,

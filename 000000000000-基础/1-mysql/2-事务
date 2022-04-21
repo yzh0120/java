@@ -35,11 +35,10 @@ COMMIT 提交当前事务
 ROLLBACK 回滚当前事务
 
 方式 2
-默认情况下 autocommit = 1，是自动提交事务的。
-SET autocommit = 0;
 
-COMMIT 提交当前事务 
-ROLLBACK 回滚当前事务
+SET autocommit = 0;自动提交前一个事务 然后关闭自动提交
+再 SET autocommit = 1，是自动提交事务的。
+
 
 
 
