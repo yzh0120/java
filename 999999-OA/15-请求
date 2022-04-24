@@ -3,8 +3,9 @@
 top.learun.gxhttpAsync('POST', `/PerFormance/AppraisalInfo/SaveList`, { __RequestVerificationToken: token, entity: {} }, function (res) {
 	//top.learun.loading(false);
 	if (res.code == 200) {
-		self.tableData = res.data.rows;
-		self.pagerData.total = res.data.total;
+		//self.tableData = res.data.rows;
+		//self.pagerData.total = res.data.total;
+		self.$message.success(res.info)
 	} else {
 		self.$message.error(res.info)
 	}

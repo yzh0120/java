@@ -9,3 +9,7 @@ if (userinfo.userId == res.data.CreateUserId) {
 	this.isCreater = true;
 
 }
+
+
+
+taskHistroyInfo.IsCreator
