@@ -10,7 +10,7 @@
 
 
 @Html.AppendJsFile("/Areas/GX_OAModule/Views/BusinessReport/Mixin.js")
-------------------------------------------------------------------------------------过滤器
+------------------------------------------------------------------------------------自定义过滤器
 formatMoney(num, point) {
             if (!!num && num.toString().indexOf(",") != -1) {
                 return num;

@@ -12,7 +12,7 @@ TreeSet<Integer>  h =  new TreeSet<Integer>()
 
 pubiic class Student implements  Comparable<Studeng>{
 	如果用 自然排序 给类排序,需要类实现 Comparable 接口
-	public int CompareTo(s1){  s1表示前一个类
+	public int CompareTo(s1){  s1表示前一个类 this当前类
 		
 	}
 	在 int  CompareTo 方法内返回
@@ -32,7 +32,7 @@ TreeSet<Student>  h =  new TreeSet<Student>(
 	new Comparator<Student>(){
 		public int Compare(s1,s2){ s1 当前类  , s2前一个类
 				
-			}
+		}
 	}
 )
 

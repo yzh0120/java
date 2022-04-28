@@ -27,7 +27,7 @@
                 </el-table-column>
             </el-table>
 
-            <BasePager :data="pagerData" @@pageChange="getData()" @@sizeChange="getData()"></BasePager>
+            <BasePager :data="pagerData" @@pagechange="getData()" @@sizechange="getData()"></BasePager>
 
             @*弹窗*@
             <el-dialog title="提示" :visible.sync="dialogVisible" width="80%" :before-close="cancel">

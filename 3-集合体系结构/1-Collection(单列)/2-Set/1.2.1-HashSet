@@ -4,3 +4,7 @@
 4 由于是Set集合,所以	是不含任何重复的元素
 
 HashSet<int>  h =  new HashSet<int>()
+
+
+
+
